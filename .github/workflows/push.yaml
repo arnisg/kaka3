@@ -20,4 +20,4 @@ jobs:
           tags: ghcr.io/arnisg/kaka3:latest
           registry: ghcr.io
           username: ${{ github.actor }}
-          password: ${{ secrets.CR_PAT }}
+          password: ${{ secrets.GITHUB_TOKEN }}
